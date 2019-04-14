@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "服务核心", "公共组件\服务核心\ServiceCore.vcxproj", "{B1320037-89DD-4F99-A628-69DC200DFA05}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "登录服务器", "服务器组件\登录服务器\LogonServer.vcxproj", "{CD826B8C-89BD-44AF-A1DE-0A91494CD763}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F5D6B929-08E3-43DA-9F39-941A859B3FD8} = {F5D6B929-08E3-43DA-9F39-941A859B3FD8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "内核引擎", "服务器组件\内核引擎\KernelEngine.vcxproj", "{F5D6B929-08E3-43DA-9F39-941A859B3FD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Unicode|Win32 = Debug_Unicode|Win32
+		Debug|Win32 = Debug|Win32
+		Release_Manager|Win32 = Release_Manager|Win32
+		Release_Unicode|Win32 = Release_Unicode|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1320037-89DD-4F99-A628-69DC200DFA05}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{B1320037-89DD-4F99-A628-69DC200DFA05}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{B1320037-89DD-4F99-A628-69DC200DFA05}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1320037-89DD-4F99-A628-69DC200DFA05}.Debug|Win32.Build.0 = Debug|Win32
+		{B1320037-89DD-4F99-A628-69DC200DFA05}.Release_Manager|Win32.ActiveCfg = Release_Unicode|Win32
+		{B1320037-89DD-4F99-A628-69DC200DFA05}.Release_Manager|Win32.Build.0 = Release_Unicode|Win32
+		{B1320037-89DD-4F99-A628-69DC200DFA05}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{B1320037-89DD-4F99-A628-69DC200DFA05}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+		{B1320037-89DD-4F99-A628-69DC200DFA05}.Release|Win32.ActiveCfg = Release|Win32
+		{B1320037-89DD-4F99-A628-69DC200DFA05}.Release|Win32.Build.0 = Release|Win32
+		{CD826B8C-89BD-44AF-A1DE-0A91494CD763}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{CD826B8C-89BD-44AF-A1DE-0A91494CD763}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{CD826B8C-89BD-44AF-A1DE-0A91494CD763}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD826B8C-89BD-44AF-A1DE-0A91494CD763}.Debug|Win32.Build.0 = Debug|Win32
+		{CD826B8C-89BD-44AF-A1DE-0A91494CD763}.Release_Manager|Win32.ActiveCfg = Release_Unicode|Win32
+		{CD826B8C-89BD-44AF-A1DE-0A91494CD763}.Release_Manager|Win32.Build.0 = Release_Unicode|Win32
+		{CD826B8C-89BD-44AF-A1DE-0A91494CD763}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{CD826B8C-89BD-44AF-A1DE-0A91494CD763}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+		{CD826B8C-89BD-44AF-A1DE-0A91494CD763}.Release|Win32.ActiveCfg = Release|Win32
+		{CD826B8C-89BD-44AF-A1DE-0A91494CD763}.Release|Win32.Build.0 = Release|Win32
+		{F5D6B929-08E3-43DA-9F39-941A859B3FD8}.Debug_Unicode|Win32.ActiveCfg = Debug_Unicode|Win32
+		{F5D6B929-08E3-43DA-9F39-941A859B3FD8}.Debug_Unicode|Win32.Build.0 = Debug_Unicode|Win32
+		{F5D6B929-08E3-43DA-9F39-941A859B3FD8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F5D6B929-08E3-43DA-9F39-941A859B3FD8}.Debug|Win32.Build.0 = Debug|Win32
+		{F5D6B929-08E3-43DA-9F39-941A859B3FD8}.Release_Manager|Win32.ActiveCfg = Release_Unicode|Win32
+		{F5D6B929-08E3-43DA-9F39-941A859B3FD8}.Release_Manager|Win32.Build.0 = Release_Unicode|Win32
+		{F5D6B929-08E3-43DA-9F39-941A859B3FD8}.Release_Unicode|Win32.ActiveCfg = Release_Unicode|Win32
+		{F5D6B929-08E3-43DA-9F39-941A859B3FD8}.Release_Unicode|Win32.Build.0 = Release_Unicode|Win32
+		{F5D6B929-08E3-43DA-9F39-941A859B3FD8}.Release|Win32.ActiveCfg = Release|Win32
+		{F5D6B929-08E3-43DA-9F39-941A859B3FD8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D6093D7-4CC4-41A0-9BF4-19B0B798C9C5}
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal
