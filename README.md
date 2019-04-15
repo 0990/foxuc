@@ -7,12 +7,14 @@
 1，网狐内核升级，加入Websocket支持，内核已在棋牌项目运行二年以上，稳定可靠<br>
 2，网狐内核通信加入json支持（使用jsoncpp库）<br>
 
-# 编译运行
+## 运行
+在“运行/Debug/Unicode”目录下,启动LogonServer.exe即开启了小游戏（头像大乱斗）的服务端<br>
 
-## 直接运行
-在“运行/Debug/Unicode”目录下启动LogonServer.exe即开启了小游戏（头像大乱斗）的服务端(默认监听端口8400)<br>
 客户端代码在此：https://github.com/0990/shootgame
-
 
 ## 编译
 仅支持vs2017，打开“系统模块”目录下Platform.sln编译即可
+
+## 注意
+1，websocket发包未支持分包，不支持一次发包32kb以上
+2，json传输为明文传输（尽管代码中有加密代码但未启用）
