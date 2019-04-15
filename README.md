@@ -4,13 +4,13 @@
 其中“登录服务器”改造成一个小游戏的服务端
 
 ## 特点：
-1，网狐内核升级，加入Websocket支持，内核已在棋牌项目运行二年以上，稳定可靠
-2，网狐内核通信加入json支持（使用jsoncpp库）
+1，网狐内核升级，加入Websocket支持，内核已在棋牌项目运行二年以上，稳定可靠<br>
+2，网狐内核通信加入json支持（使用jsoncpp库）<br>
 
 # 编译运行
 
 ## 直接运行
-在“运行/Debug/Unicode”目录下启动LogonServer.exe即开启了小游戏（头像大乱斗）的服务端(默认监听端口8400)
+在“运行/Debug/Unicode”目录下启动LogonServer.exe即开启了小游戏（头像大乱斗）的服务端(默认监听端口8400)<br>
 客户端代码在此：https://github.com/0990/shootgame
 
 
